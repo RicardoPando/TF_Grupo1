@@ -78,17 +78,17 @@
     <Compile Include="Presentacion\EmpleadoVenta\PanelEmpleado.designer.cs">
       <DependentUpon>PanelEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Gestor\GestionarPlan.cs">
+    <Compile Include="Presentacion\Gestor\frmGestionarPlan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Gestor\GestionarPlan.designer.cs">
-      <DependentUpon>GestionarPlan.cs</DependentUpon>
+    <Compile Include="Presentacion\Gestor\frmGestionarPlan.designer.cs">
+      <DependentUpon>frmGestionarPlan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Gestor\PanelGestor.cs">
+    <Compile Include="Presentacion\Gestor\frmPanelGestor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Gestor\PanelGestor.designer.cs">
-      <DependentUpon>PanelGestor.cs</DependentUpon>
+    <Compile Include="Presentacion\Gestor\frmPanelGestor.designer.cs">
+      <DependentUpon>frmPanelGestor.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Main\frmRegistrarCliente.cs">
       <SubType>Form</SubType>
@@ -116,11 +116,11 @@
     <EmbeddedResource Include="Presentacion\EmpleadoVenta\PanelEmpleado.resx">
       <DependentUpon>PanelEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Gestor\GestionarPlan.resx">
-      <DependentUpon>GestionarPlan.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Gestor\frmGestionarPlan.resx">
+      <DependentUpon>frmGestionarPlan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Gestor\PanelGestor.resx">
-      <DependentUpon>PanelGestor.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Gestor\frmPanelGestor.resx">
+      <DependentUpon>frmPanelGestor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Main\frmRegistrarCliente.resx">
       <DependentUpon>frmRegistrarCliente.cs</DependentUpon>
