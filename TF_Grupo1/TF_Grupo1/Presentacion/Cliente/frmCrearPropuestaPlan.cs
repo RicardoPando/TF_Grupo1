@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TF_Grupo1.Presentacion.Cliente
 {
-    public partial class CrearPropuestaPlan : Form
+    public partial class frmCrearPropuestaPlan : Form
     {
-        public CrearPropuestaPlan()
+        public frmCrearPropuestaPlan()
         {
             InitializeComponent();
         }

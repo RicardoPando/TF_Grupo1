@@ -1,7 +1,7 @@
 ﻿
 namespace TF_Grupo1.Presentacion.Cliente
 {
-    partial class PanelCliente
+    partial class frmPanelCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace TF_Grupo1.Presentacion.Cliente
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelCliente));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPanelCliente));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();

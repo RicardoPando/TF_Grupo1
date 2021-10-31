@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TF_Grupo1.Presentacion.EmpleadoVenta
+namespace TF_Grupo1.Presentacion.Cliente
 {
-    public partial class GestionPlanCliente : Form
+    public partial class frmPanelCliente : Form
     {
-        public GestionPlanCliente()
+        public frmPanelCliente()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace TF_Grupo1.Presentacion.Cliente
 {
-    partial class CrearPropuestaPlan
+    partial class frmCrearPropuestaPlan
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace TF_Grupo1.Presentacion.Cliente
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearPropuestaPlan));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCrearPropuestaPlan));
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();

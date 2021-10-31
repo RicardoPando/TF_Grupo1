@@ -54,17 +54,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\ConexionBD.cs" />
-    <Compile Include="Presentacion\Cliente\CrearPropuestaPlan.cs">
+    <Compile Include="Presentacion\Administrador\frmCrearUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Cliente\CrearPropuestaPlan.designer.cs">
-      <DependentUpon>CrearPropuestaPlan.cs</DependentUpon>
+    <Compile Include="Presentacion\Administrador\frmCrearUsuario.Designer.cs">
+      <DependentUpon>frmCrearUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Cliente\PanelCliente.cs">
+    <Compile Include="Presentacion\Administrador\frmPanelAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Cliente\PanelCliente.designer.cs">
-      <DependentUpon>PanelCliente.cs</DependentUpon>
+    <Compile Include="Presentacion\Administrador\frmPanelAdministrador.Designer.cs">
+      <DependentUpon>frmPanelAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Cliente\frmCrearPropuestaPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Cliente\frmCrearPropuestaPlan.designer.cs">
+      <DependentUpon>frmCrearPropuestaPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Cliente\frmPanelCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Cliente\frmPanelCliente.designer.cs">
+      <DependentUpon>frmPanelCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\EmpleadoVenta\frmRegistrarCliente.cs">
       <SubType>Form</SubType>
@@ -72,11 +84,11 @@
     <Compile Include="Presentacion\EmpleadoVenta\frmRegistrarCliente.designer.cs">
       <DependentUpon>frmRegistrarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\EmpleadoVenta\PanelEmpleado.cs">
+    <Compile Include="Presentacion\EmpleadoVenta\frmPanelEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\EmpleadoVenta\PanelEmpleado.designer.cs">
-      <DependentUpon>PanelEmpleado.cs</DependentUpon>
+    <Compile Include="Presentacion\EmpleadoVenta\frmPanelEmpleado.designer.cs">
+      <DependentUpon>frmPanelEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Gestor\frmGestionarPlan.cs">
       <SubType>Form</SubType>
@@ -104,17 +116,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Presentacion\Cliente\CrearPropuestaPlan.resx">
-      <DependentUpon>CrearPropuestaPlan.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Administrador\frmCrearUsuario.resx">
+      <DependentUpon>frmCrearUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Cliente\PanelCliente.resx">
-      <DependentUpon>PanelCliente.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\Administrador\frmPanelAdministrador.resx">
+      <DependentUpon>frmPanelAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Cliente\frmCrearPropuestaPlan.resx">
+      <DependentUpon>frmCrearPropuestaPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Cliente\frmPanelCliente.resx">
+      <DependentUpon>frmPanelCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\EmpleadoVenta\frmRegistrarCliente.resx">
       <DependentUpon>frmRegistrarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\EmpleadoVenta\PanelEmpleado.resx">
-      <DependentUpon>PanelEmpleado.cs</DependentUpon>
+    <EmbeddedResource Include="Presentacion\EmpleadoVenta\frmPanelEmpleado.resx">
+      <DependentUpon>frmPanelEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Gestor\frmGestionarPlan.resx">
       <DependentUpon>frmGestionarPlan.cs</DependentUpon>
